@@ -1,0 +1,1056 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monica's YUMMY Dine Divine</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.3/animate.min.css'>
+    <link href="https://fonts.googleapis.com/css2?family=Allison&family=Concert+One&family=Crimson+Pro:ital,wght@0,200..900;1,200..900&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Sacramento&family=Tapestry&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+</head>
+
+<body>
+
+<!------------------------------------------------header/navbar part------------------------------------------------------->
+    <nav class="navbar navbar-expand-lg navbar-light" id="header">
+        <div class="container">
+            <a class="navbar-brand-custom" href="#">
+                <span class="brand-welcome">WELCOME to Monica's</span>
+                <span class="brand-name">YUMMY Dine Divine</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav align-items-center">
+                    <li class="nav-item"><a class="nav-link-custom" href="#">Home</a></li>
+                    <li class="nav-item"><a class="nav-link-custom" href="#abu">About</a></li>
+                    <li class="nav-item"><a class="nav-link-custom" href="#menuu">Menu</a></li>
+                    <li class="nav-item"><a class="nav-link-custom" href="#eventss">Events</a></li>
+                    <li class="nav-item"><a class="nav-link-custom" href="#chefss-section">Chefs</a></li>
+                    <li class="nav-item"><a class="nav-link-custom" href="#galleryyy">Gallery</a></li>
+                    <li class="nav-item"><a class="nav-link-custom" href="#registration-form">Contact</a></li>
+                    <li class="nav-item ml-lg-3 mt-3 mt-lg-0">
+                        <a href="#registration-form" class="btn btn-brand contact-buttons py-2 px-4">BOOK A TABLE</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+<!--------------------------------------------------home---------------------------------------------------->
+    <div class="home">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 mb-5 mb-lg-0">
+                    <div class="home1">
+                        <h1 class="main-headings">ENJOY YOUR HEALTHY</h1>
+                        <h1 class="main-headings">Delicious Food</h1>
+                        <p class="home-paragraphs">PalatePinnacle invites you to embark on a culinary journey like no other. Immerse yourself in the artistry of our dishes, meticulously crafted to tantalize your taste buds. Our commitment to excellence extends beyond the plate, creating an atmosphere that elevates every dining experience.</p>
+                        <a href="#registration-form" class="btn btn-brand contact-buttons py-3 px-5">BOOK A TABLE</a>
+                    </div>
+                </div>
+                <div class="col-lg-6 text-center" id="home2">
+                    <img src="food7.jpg" class="rounded-circle" alt="Delicious Food Plate"/>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!--------------------------------------------------about us---------------------------------------------------->
+    <div class="container-fluid" id="about">
+        <div class="container">
+            <h1 class="main-headings1">Learn More About Us</h1><br/><br/>
+            <div class="row align-items-center">
+                <div class="col-lg-5 mb-5 mb-lg-0 text-center">
+                    <div class="about1">
+                        <img src="tables2.jpg" class="rounded" alt="Restaurant Interior" loading="lazy"/>
+                    </div>
+                </div>
+                <div class="col-lg-7">
+                    <div class="about2" id="abu">
+                       <p class="paragraphs intro-text">Welcome to YUMMY, a culinary haven where every dish tells a story, and every meal is an exploration of flavors.</p>
+                       
+                       <!-- Interactive Tabs Nav -->
+                       <ul class="nav nav-tabs custom-tabs" id="aboutTab" role="tablist">
+                         <li class="nav-item" role="presentation">
+                           <button class="nav-link active" id="history-tab" data-toggle="tab" data-target="#history" type="button" role="tab" aria-controls="history" aria-selected="true">Our History</button>
+                         </li>
+                         <li class="nav-item" role="presentation">
+                           <button class="nav-link" id="philosophy-tab" data-toggle="tab" data-target="#philosophy" type="button" role="tab" aria-controls="philosophy" aria-selected="false">Our Philosophy</button>
+                         </li>
+                         <li class="nav-item" role="presentation">
+                           <button class="nav-link" id="design-tab" data-toggle="tab" data-target="#design" type="button" role="tab" aria-controls="design" aria-selected="false">Atmosphere & Design</button>
+                         </li>
+                       </ul>
+                       
+                       <!-- Interactive Tab Content -->
+                       <div class="tab-content custom-tab-content" id="aboutTabContent">
+                         <div class="tab-pane fade show active" id="history" role="tabpanel" aria-labelledby="history-tab">
+                           <p class="paragraphs text-muted">Monica's YUMMY was founded a decade ago with a vision to redefine dining experiences. From our humble beginnings, we've evolved into a culinary institution, celebrated for our dedication to quality and innovation. Our journey has been shaped by the commitment to offering memorable moments through exceptional food.</p>
+                         </div>
+                         <div class="tab-pane fade" id="philosophy" role="tabpanel" aria-labelledby="philosophy-tab">
+                           <p class="paragraphs text-muted">At the heart of monica's philosophy is the belief that food is a celebration of life. We embrace diversity in flavors, drawing inspiration from global cuisines while staying rooted in local authenticity. Each dish is a canvas where our chefs express their creativity, and every bite is an invitation to indulge in a symphony of tastes.</p>
+                         </div>
+                         <div class="tab-pane fade" id="design" role="tabpanel" aria-labelledby="design-tab">
+                           <p class="paragraphs text-muted">Immerse yourself in the inviting ambiance of YUMMY. Our interior design is a reflection of our commitment to providing a multi-sensory experience. From the carefully chosen color palette to the thoughtfully arranged seating, every element is designed to create a comfortable yet sophisticated atmosphere. Whether you're here for an intimate dinner or a festive celebration, our space adapts to your every occasion.</p>
+                         </div>
+                       </div>
+                       
+                       <p class="paragraphs mt-4 conclusion-text">Join us at monica's YUMMY, where passion meets plate, and every visit is an opportunity to savor the extraordinary. We invite you to be part of our ongoing story as we continue to innovate and elevate the art of dining.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!------------------------------------------------ menu-------------------------------------------------->
+    <div class="container" id="menu">
+        <h1 class="main-headings1" id="menuu">POPULAR DISHES</h1><br/>
+        
+        <div class="row">
+            <!-- Dish 1 -->
+            <div class="col-md-6 col-lg-4 mb-4">
+                <div class="menu-card card-special">
+                    <div class="menu-img-wrapper">
+                        <img src="shrimp.jpg" alt="Spicy Palazzo Shrimp" loading="lazy">
+                        <div class="menu-price">$18.50</div>
+                    </div>
+                    <div class="menu-card-body">
+                        <h4 class="menu-dish-title">Spicy Palazzo Shrimp</h4>
+                        <div class="menu-tags-wrapper">
+                            <span class="menu-tag-badge">Seafood 🦐</span>
+                            <span class="menu-tag-badge">Spicy 🌶️</span>
+                        </div>
+                        <p class="paragraphs text-muted">Spicy palazzo shrimp is a spicy garlic and herb sauce, served on a crisp bed of lettuce.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Dish 2 -->
+            <div class="col-md-6 col-lg-4 mb-4">
+                <div class="menu-card card-veggie">
+                    <div class="menu-img-wrapper">
+                        <img src="risotto.jpg" alt="Imperial Garden Risotto" loading="lazy">
+                        <div class="menu-price">$22.00</div>
+                    </div>
+                    <div class="menu-card-body">
+                        <h4 class="menu-dish-title">Imperial Garden Risotto</h4>
+                        <div class="menu-tags-wrapper">
+                            <span class="menu-tag-badge">Gluten-Free</span>
+                            <span class="menu-tag-badge">Veggie 🍄</span>
+                        </div>
+                        <p class="paragraphs text-muted">Risotto with black truffles, delicate carnival of fresh mushrooms, and truffle oil.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Dish 3 -->
+            <div class="col-md-6 col-lg-4 mb-4">
+                <div class="menu-card card-special">
+                    <div class="menu-img-wrapper">
+                        <img src="turkey.jpg" alt="Golden Pear Turkey Medallions" loading="lazy">
+                        <div class="menu-price">$26.50</div>
+                    </div>
+                    <div class="menu-card-body">
+                        <h4 class="menu-dish-title">Golden Pear Turkey Medallions</h4>
+                        <div class="menu-tags-wrapper">
+                            <span class="menu-tag-badge">Chef Special 👑</span>
+                        </div>
+                        <p class="paragraphs text-muted">Turkey medallions served with a pear sauce, nutty cream, and caramelized arugula salad.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Dish 4 -->
+            <div class="col-md-6 col-lg-4 mb-4">
+                <div class="menu-card card-classic">
+                    <div class="menu-img-wrapper">
+                        <img src="salmon.jpg" alt="Mango Sunshine Salmon" loading="lazy">
+                        <div class="menu-price">$24.00</div>
+                    </div>
+                    <div class="menu-card-body">
+                        <h4 class="menu-dish-title">Mango Sunshine Salmon</h4>
+                        <div class="menu-tags-wrapper">
+                            <span class="menu-tag-badge">Classic</span>
+                            <span class="menu-tag-badge">Seafood 🐟</span>
+                        </div>
+                        <p class="paragraphs text-muted">Grilled salmon drizzled with mango sauce, accompanied by mango-avocado salad and sesame caramel cream.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Dish 5 -->
+            <div class="col-md-6 col-lg-4 mb-4">
+                <div class="menu-card card-special">
+                    <div class="menu-img-wrapper">
+                        <img src="steak.jpg" alt="Chili Volcano Steak" loading="lazy">
+                        <div class="menu-price">$29.00</div>
+                    </div>
+                    <div class="menu-card-body">
+                        <h4 class="menu-dish-title">Chili Volcano Steak</h4>
+                        <div class="menu-tags-wrapper">
+                            <span class="menu-tag-badge">Spicy 🌶️</span>
+                            <span class="menu-tag-badge">Hot 🔥</span>
+                        </div>
+                        <p class="paragraphs text-muted">Argentine beef steak grilled to perfection, glazed with chili-honey sauce, served with sweet potato puree.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Dish 6 -->
+            <div class="col-md-6 col-lg-4 mb-4">
+                <div class="menu-card card-classic">
+                    <div class="menu-img-wrapper">
+                        <img src="chicken.jpg" alt="Divine Citrus Blossom Chicken" loading="lazy">
+                        <div class="menu-price">$21.50</div>
+                    </div>
+                    <div class="menu-card-body">
+                        <h4 class="menu-dish-title">Divine Citrus Blossom Chicken</h4>
+                        <div class="menu-tags-wrapper">
+                            <span class="menu-tag-badge">Classic 🍗</span>
+                        </div>
+                        <p class="paragraphs text-muted">Citrus-infused roasted chicken with a blossom honey glaze, paired with saffron-infused couscous.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Dish 7 -->
+            <div class="col-md-6 col-lg-4 mb-4">
+                <div class="menu-card card-veggie">
+                    <div class="menu-img-wrapper">
+                        <img src="pizza.jpg" alt="Truffle Symphony Pizza" loading="lazy">
+                        <div class="menu-price">$19.50</div>
+                    </div>
+                    <div class="menu-card-body">
+                        <h4 class="menu-dish-title">Truffle Symphony Pizza</h4>
+                        <div class="menu-tags-wrapper">
+                            <span class="menu-tag-badge">Veggie 🍕</span>
+                        </div>
+                        <p class="paragraphs text-muted">Thin-crust pizza topped with a symphony of truffle-infused mushrooms, goat cheese, and arugula.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Dish 8 -->
+            <div class="col-md-6 col-lg-4 mb-4">
+                <div class="menu-card card-sweet">
+                    <div class="menu-img-wrapper">
+                        <img src="sorbet.jpg" alt="Pinnacle Passion Fruit Sorbet" loading="lazy">
+                        <div class="menu-price">$12.00</div>
+                    </div>
+                    <div class="menu-card-body">
+                        <h4 class="menu-dish-title">Pinnacle Passion Fruit Sorbet</h4>
+                        <div class="menu-tags-wrapper">
+                            <span class="menu-tag-badge">Sweet 🍧</span>
+                        </div>
+                        <p class="paragraphs text-muted">Refreshing passion fruit sorbet garnished with mint leaves and a hint of ginger, a delightful palate cleanser.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Dish 9 (New) -->
+            <div class="col-md-6 col-lg-4 mb-4">
+                <div class="menu-card card-veggie">
+                    <div class="menu-img-wrapper">
+                        <img src="food1.jpg" alt="Crispy Golden Spring Rolls" loading="lazy">
+                        <div class="menu-price">$10.50</div>
+                    </div>
+                    <div class="menu-card-body">
+                        <h4 class="menu-dish-title">Crispy Golden Spring Rolls</h4>
+                        <div class="menu-tags-wrapper">
+                            <span class="menu-tag-badge">Starter 🥟</span>
+                            <span class="menu-tag-badge">Veggie</span>
+                        </div>
+                        <p class="paragraphs text-muted">Crispy pastry wrappers filled with glass noodles, shredded vegetables, fried golden and served hot.</p>
+                    </div>
+                </div>
+            </div>
+            
+            
+            
+            
+        </div>
+    </div>
+
+<!------------------------------------------------events(scrolling images)--------------------------------------------------->
+    <div class="container-fluid" id="eventss-section">
+        <h6 id="eventss" class="main-headings1">Events</h6>
+        <h1 class="main-headings1">SHARE YOUR MOMENTS IN OUR RESTAURANT</h1><br/>
+        
+        <div class="slideshow-container">
+            <div class="mySlides">
+              <img src="cottonbro.jpg" alt="Birthday Party Banquet">
+              <div class="text">BIRTHDAY PARTIES</div>
+            </div>
+            
+            <div class="mySlides">
+              <img src="wendy.jpg" alt="Custom Themed Party">
+              <div class="text">CUSTOM PARTIES</div>
+            </div>
+            
+            <div class="mySlides">
+              <img src="drinks.jpg" alt="Private Wine Tasting">
+              <div class="text">PRIVATE PARTIES</div>
+            </div>
+            
+            <div class="mySlides">
+              <img src="wedding_event.jpg" alt="Wedding Reception Banquet">
+              <div class="text">WEDDINGS & RECEPTIONS</div>
+            </div>
+            
+            <div class="mySlides">
+              <img src="corporate_event.jpg" alt="Corporate Business Dinner">
+              <div class="text">CORPORATE EVENTS</div>
+            </div>
+            
+            <!-- Slides Navigation Controls -->
+            <a class="prev-slide" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next-slide" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br>
+        
+        <div class="dot-container">
+          <span class="dot" onclick="currentSlide(1)"></span> 
+          <span class="dot" onclick="currentSlide(2)"></span> 
+          <span class="dot" onclick="currentSlide(3)"></span> 
+          <span class="dot" onclick="currentSlide(4)"></span> 
+          <span class="dot" onclick="currentSlide(5)"></span> 
+        </div>
+    </div>
+
+<!--------------------------------------------------chefs---------------------------------------------------------->
+    <div class="container-fluid" id="chefss-section">
+        <div class="container">
+            <h1 class="main-headings1" id="chefss">OUR PROFESSIONAL CHEFS</h1><br/><br/>
+            
+            <div class="row">
+                <!-- Chef 1 -->
+                <div class="col-md-4 mb-4">
+                  <div class="chef-card">
+                    <div class="chef-img-wrapper">
+                      <img src="chef1.jpg" alt="Gordon Ramsay" loading="lazy">
+                      <div class="chef-social-overlay">
+                        <a href="https://facebook.com/" class="chef-social-icon"><i class="fa fa-facebook"></i></a>
+                        <a href="https://twitter.com/" class="chef-social-icon"><i class="fa fa-twitter"></i></a>
+                        <a href="https://instagram.com/" class="chef-social-icon"><i class="fa fa-instagram"></i></a>
+                      </div>
+                    </div>
+                    <div class="chef-info text-center py-4 px-3">
+                      <h3 class="chef-name">Gordon Ramsay</h3>
+                      <p class="chef-title">Master Chef</p>
+                      <p class="chef-bio">Gordon Ramsay is a globally celebrated Michelin-starred celebrity chef known for his culinary precision and television excellence.</p>
+                      <p class="chef-email"><i class="fa fa-envelope mr-2"></i>gordonramsay@gmail.com</p>
+                    </div>
+                  </div>
+                </div>
+              
+                <!-- Chef 2 -->
+                <div class="col-md-4 mb-4">
+                  <div class="chef-card">
+                    <div class="chef-img-wrapper">
+                      <img src="chef2.jpg" alt="Sarah Johnson" loading="lazy">
+                      <div class="chef-social-overlay">
+                        <a href="https://facebook.com/" class="chef-social-icon"><i class="fa fa-facebook"></i></a>
+                        <a href="https://twitter.com/" class="chef-social-icon"><i class="fa fa-twitter"></i></a>
+                        <a href="https://instagram.com/" class="chef-social-icon"><i class="fa fa-instagram"></i></a>
+                      </div>
+                    </div>
+                    <div class="chef-info text-center py-4 px-3">
+                      <h3 class="chef-name">Sarah Johnson</h3>
+                      <p class="chef-title">Patissier</p>
+                      <p class="chef-bio">Sarah is a world-class pastry chef crafting edible symphonies of chocolate, fresh fruits, and delicate sugars for our dessert menu.</p>
+                      <p class="chef-email"><i class="fa fa-envelope mr-2"></i>sarah@example.com</p>
+                    </div>
+                  </div>
+                </div>
+                
+                <!-- Chef 3 -->
+                <div class="col-md-4 mb-4">
+                  <div class="chef-card">
+                    <div class="chef-img-wrapper">
+                      <img src="chef3.jpg" alt="William Anderson" loading="lazy">
+                      <div class="chef-social-overlay">
+                        <a href="https://facebook.com/" class="chef-social-icon"><i class="fa fa-facebook"></i></a>
+                        <a href="https://twitter.com/" class="chef-social-icon"><i class="fa fa-twitter"></i></a>
+                        <a href="https://instagram.com/" class="chef-social-icon"><i class="fa fa-instagram"></i></a>
+                      </div>
+                    </div>
+                    <div class="chef-info text-center py-4 px-3">
+                      <h3 class="chef-name">William Anderson</h3>
+                      <p class="chef-title">Sous Chef</p>
+                      <p class="chef-bio">William excels in modern gastronomic techniques, bringing a unique twist to regional grill recipes and fresh plating design.</p>
+                      <p class="chef-email"><i class="fa fa-envelope mr-2"></i>william@gmail.com</p>
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!------------------------------------------contact us (table booking)------------------------------------------->
+    <div class="container-fluid" id="registration-form">
+        <div class="container">
+            <div style="text-align:center" id="contacting">
+              <p class="paragraphs text-muted">book a table</p>
+              <h1 class="main-headings1">BOOK YOUR TABLE WITH US</h1><br/>
+            </div>
+            
+            <div class="row register-row">
+              <div class="col-lg-6 px-0 column">
+                <img src="tables3.jpg" alt="Dinner Booking Table Setup" loading="lazy">
+              </div>
+        
+              <div class="col-lg-6 px-0">
+                <div class="column1">
+                  <form id="bookingForm" onsubmit="handleBookingSubmit(event)" class="register-formmm">
+                    <label for="fname">Name:</label>
+                    <input type="text" id="fname" placeholder="Your name.." required>
+                    
+                    <label for="fphone">Contact Number:</label>
+                    <input type="tel" id="fphone" placeholder="Your contact phone.." required>
+                    
+                    <label for="femail">Email Address:</label>
+                    <input type="email" id="femail" placeholder="Your email address.." required>
+                    
+                    <label for="fguests">Number of Guests:</label>
+                    <input type="number" id="fguests" min="1" max="10" placeholder="Number of guests (1-10)" required>
+                    
+                    <label for="fdatetime">Date & Time:</label>
+                    <input type="datetime-local" id="fdatetime" required>
+                    
+                    <label for="ftable">Choose Floor & Table Plan:</label>
+                    <div class="input-group mb-3">
+                        <input type="text" id="ftable" class="form-control" placeholder="No table selected yet" readonly required style="background-color: #f1f1f1; border-color: #a39380; font-family: 'Crimson Text', serif; font-size: 1.1rem; height: auto; padding: 10px 15px; margin-bottom: 0;">
+                        <div class="input-group-append">
+                            <button class="btn btn-dark" type="button" data-toggle="modal" data-target="#tableModal" style="font-family: 'Concert One', sans-serif;">Choose Table</button>
+                        </div>
+                    </div>
+                    
+                    <button type="submit" class="registration-button mt-3">Confirm Table Booking</button>
+                  </form>
+                </div>
+              </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Table Selection Modal -->
+    <div class="modal fade" id="tableModal" tabindex="-1" aria-labelledby="tableModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content" style="border-radius: 15px; border: none; overflow: hidden; box-shadow: 0 10px 40px rgba(0,0,0,0.2);">
+          <div class="modal-header" style="background-color: var(--secondary-color); color: white; padding: 20px;">
+            <h5 class="modal-title" id="tableModalLabel" style="font-family: 'Concert One', sans-serif; font-size: 1.5rem;"><i class="fa fa-map mr-2"></i>Choose Your Dining Table</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="color: white; opacity: 0.8;">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body" style="padding: 30px; background-color: #f9f9f9;">
+            <!-- Floor Selection Tabs -->
+            <ul class="nav nav-pills justify-content-center mb-4" id="floorTab" role="tablist" style="gap: 15px;">
+              <li class="nav-item" role="presentation">
+                <button class="btn btn-brand active" id="ground-floor-tab" data-toggle="pill" data-target="#ground-floor" type="button" role="tab" aria-controls="ground-floor" aria-selected="true" style="border-radius: 30px; padding: 8px 25px;">Ground Floor</button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button class="btn btn-brand" id="first-floor-tab" data-toggle="pill" data-target="#first-floor" type="button" role="tab" aria-controls="first-floor" aria-selected="false" style="border-radius: 30px; padding: 8px 25px; background: #666;">First Floor</button>
+              </li>
+            </ul>
+            
+            <!-- Floor Plans Container -->
+            <div class="tab-content" id="floorTabContent">
+              <!-- Ground Floor Grid -->
+              <div class="tab-pane fade show active" id="ground-floor" role="tabpanel" aria-labelledby="ground-floor-tab">
+                <div class="floor-plan-grid">
+                  <!-- Ground Floor Tables (1 to 8) -->
+                  <div class="table-node available" data-table-id="G1" data-seats="2" onclick="selectModalTable(this, 'Table 1 (Ground Floor, 2 Seats)')">
+                    <i class="fa fa-cutlery"></i>
+                    <span class="table-node-name">Table 1</span>
+                    <span class="table-node-seats">2 Seats</span>
+                  </div>
+                  <div class="table-node available" data-table-id="G2" data-seats="4" onclick="selectModalTable(this, 'Table 2 (Ground Floor, 4 Seats)')">
+                    <i class="fa fa-cutlery"></i>
+                    <span class="table-node-name">Table 2</span>
+                    <span class="table-node-seats">4 Seats</span>
+                  </div>
+                  <div class="table-node booked" data-table-id="G3" data-seats="4">
+                    <i class="fa fa-ban"></i>
+                    <span class="table-node-name">Table 3</span>
+                    <span class="table-node-seats">Booked</span>
+                  </div>
+                  <div class="table-node available" data-table-id="G4" data-seats="6" onclick="selectModalTable(this, 'Table 4 (Ground Floor, 6 Seats)')">
+                    <i class="fa fa-cutlery"></i>
+                    <span class="table-node-name">Table 4</span>
+                    <span class="table-node-seats">6 Seats</span>
+                  </div>
+                  <div class="table-node available" data-table-id="G5" data-seats="2" onclick="selectModalTable(this, 'Table 5 (Ground Floor, 2 Seats)')">
+                    <i class="fa fa-cutlery"></i>
+                    <span class="table-node-name">Table 5</span>
+                    <span class="table-node-seats">2 Seats</span>
+                  </div>
+                  <div class="table-node booked" data-table-id="G6" data-seats="4">
+                    <i class="fa fa-ban"></i>
+                    <span class="table-node-name">Table 6</span>
+                    <span class="table-node-seats">Booked</span>
+                  </div>
+                  <div class="table-node available" data-table-id="G7" data-seats="8" onclick="selectModalTable(this, 'Table 7 (Ground Floor, 8 Seats)')">
+                    <i class="fa fa-cutlery"></i>
+                    <span class="table-node-name">Table 7</span>
+                    <span class="table-node-seats">8 Seats</span>
+                  </div>
+                  <div class="table-node available" data-table-id="G8" data-seats="4" onclick="selectModalTable(this, 'Table 8 (Ground Floor, 4 Seats)')">
+                    <i class="fa fa-cutlery"></i>
+                    <span class="table-node-name">Table 8</span>
+                    <span class="table-node-seats">4 Seats</span>
+                  </div>
+                </div>
+              </div>
+              
+              <!-- First Floor Grid -->
+              <div class="tab-pane fade" id="first-floor" role="tabpanel" aria-labelledby="first-floor-tab">
+                <div class="floor-plan-grid">
+                  <!-- First Floor Tables (1 to 8) -->
+                  <div class="table-node available" data-table-id="F1" data-seats="2" onclick="selectModalTable(this, 'Table 1 (First Floor, 2 Seats)')">
+                    <i class="fa fa-cutlery"></i>
+                    <span class="table-node-name">Table 1</span>
+                    <span class="table-node-seats">2 Seats</span>
+                  </div>
+                  <div class="table-node booked" data-table-id="F2" data-seats="4">
+                    <i class="fa fa-ban"></i>
+                    <span class="table-node-name">Table 2</span>
+                    <span class="table-node-seats">Booked</span>
+                  </div>
+                  <div class="table-node available" data-table-id="F3" data-seats="4" onclick="selectModalTable(this, 'Table 3 (First Floor, 4 Seats)')">
+                    <i class="fa fa-cutlery"></i>
+                    <span class="table-node-name">Table 3</span>
+                    <span class="table-node-seats">4 Seats</span>
+                  </div>
+                  <div class="table-node available" data-table-id="F4" data-seats="6" onclick="selectModalTable(this, 'Table 4 (First Floor, 6 Seats)')">
+                    <i class="fa fa-cutlery"></i>
+                    <span class="table-node-name">Table 4</span>
+                    <span class="table-node-seats">6 Seats</span>
+                  </div>
+                  <div class="table-node available" data-table-id="F5" data-seats="2" onclick="selectModalTable(this, 'Table 5 (First Floor, 2 Seats)')">
+                    <i class="fa fa-cutlery"></i>
+                    <span class="table-node-name">Table 5</span>
+                    <span class="table-node-seats">2 Seats</span>
+                  </div>
+                  <div class="table-node available" data-table-id="F6" data-seats="4" onclick="selectModalTable(this, 'Table 6 (First Floor, 4 Seats)')">
+                    <i class="fa fa-cutlery"></i>
+                    <span class="table-node-name">Table 6</span>
+                    <span class="table-node-seats">4 Seats</span>
+                  </div>
+                  <div class="table-node booked" data-table-id="F7" data-seats="8">
+                    <i class="fa fa-ban"></i>
+                    <span class="table-node-name">Table 7</span>
+                    <span class="table-node-seats">Booked</span>
+                  </div>
+                  <div class="table-node available" data-table-id="F8" data-seats="4" onclick="selectModalTable(this, 'Table 8 (First Floor, 4 Seats)')">
+                    <i class="fa fa-cutlery"></i>
+                    <span class="table-node-name">Table 8</span>
+                    <span class="table-node-seats">4 Seats</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <!-- Legend -->
+            <div class="table-status-legend">
+              <div class="legend-item">
+                <span class="legend-color av"></span>
+                <span>Available</span>
+              </div>
+              <div class="legend-item">
+                <span class="legend-color bk"></span>
+                <span>Booked</span>
+              </div>
+              <div class="legend-item">
+                <span class="legend-color sl"></span>
+                <span>Selected</span>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer" style="background-color: #f1f1f1; border-top: none; padding: 15px 30px;">
+            <button type="button" class="btn btn-secondary py-2 px-4" data-dismiss="modal" style="border-radius: 30px; font-family: 'Concert One', sans-serif;">Cancel</button>
+            <button type="button" class="btn btn-brand py-2 px-4" id="confirmTableSelectionBtn" disabled onclick="confirmModalTable()" style="border-radius: 30px;">Confirm Selection</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+<!-----------------------------------------------------album/gallery--------------------------------------------------------->
+    <div class="container-fluid" id="galleryyy">
+      <h1 class="main-headings1">CHECK OUR Gallery</h1><br/>
+      
+      <!-- Gallery Filter Tabs -->
+      <div class="text-center mb-4">
+        <div class="btn-group gallery-filter-group" role="group">
+          <button type="button" class="btn btn-filter active" onclick="filterGallery('all')">All Dishes</button>
+          <button type="button" class="btn btn-filter" onclick="filterGallery('starters')">Starters</button>
+          <button type="button" class="btn btn-filter" onclick="filterGallery('mains')">Mains</button>
+          <button type="button" class="btn btn-filter" onclick="filterGallery('desserts')">Desserts</button>
+        </div>
+      </div>
+      
+      <!-- Gallery Responsive Grid -->
+      <div class="gallery-grid">
+        <!-- Dish 1 (food1.jpg) -->
+        <div class="gallery-item starters" onclick="openLightbox('food1.jpg', 'Golden Spring Rolls', 'Crispy, hand-rolled appetizers filled with seasoned vegetables, served with sweet chili dip.')">
+          <img src="food1.jpg" alt="Golden Spring Rolls" loading="lazy">
+          <div class="gallery-overlay">
+            <h5 class="gallery-dish-name">Golden Spring Rolls</h5>
+            <span class="gallery-dish-cat">Starters</span>
+            <i class="fa fa-search-plus overlay-icon"></i>
+          </div>
+        </div>
+        
+
+        
+        <!-- Dish 5 (food6.jpg) -->
+        <div class="gallery-item mains" onclick="openLightbox('food6.jpg', 'Searing Ribeye Steak', 'Juicy ribeye steak grilled to order, served with garlic herb compound butter.')">
+          <img src="food6.jpg" alt="Searing Ribeye Steak" loading="lazy">
+          <div class="gallery-overlay">
+            <h5 class="gallery-dish-name">Searing Ribeye Steak</h5>
+            <span class="gallery-dish-cat">Mains</span>
+            <i class="fa fa-search-plus overlay-icon"></i>
+          </div>
+        </div>
+        
+        <!-- Dish 6 (food8.jpg) -->
+        <div class="gallery-item mains" onclick="openLightbox('food8.jpg', 'Honey Glazed Duck', 'Tender roasted duck breast glazed with a sweet orange honey reduction.')">
+          <img src="food8.jpg" alt="Honey Glazed Duck" loading="lazy">
+          <div class="gallery-overlay">
+            <h5 class="gallery-dish-name">Honey Glazed Duck</h5>
+            <span class="gallery-dish-cat">Mains</span>
+            <i class="fa fa-search-plus overlay-icon"></i>
+          </div>
+        </div>
+        
+        <!-- Dish 7 (food10.jpg) -->
+        <div class="gallery-item mains" onclick="openLightbox('food10.jpg', 'Grilled Seabass', 'Crispy pan-seared sea bass served on a bed of braised greens and lemon butter sauce.')">
+          <img src="food10.jpg" alt="Grilled Seabass" loading="lazy">
+          <div class="gallery-overlay">
+            <h5 class="gallery-dish-name">Grilled Seabass</h5>
+            <span class="gallery-dish-cat">Mains</span>
+            <i class="fa fa-search-plus overlay-icon"></i>
+          </div>
+        </div>
+        
+        <!-- Dish 8 (food11.jpg) -->
+        <div class="gallery-item starters" onclick="openLightbox('food11.jpg', 'Gourmet Bruschetta', 'Toasted artisan bread topped with heirloom tomatoes, garlic, fresh basil, and balsamic glaze.')">
+          <img src="food11.jpg" alt="Gourmet Bruschetta" loading="lazy">
+          <div class="gallery-overlay">
+            <h5 class="gallery-dish-name">Gourmet Bruschetta</h5>
+            <span class="gallery-dish-cat">Starters</span>
+            <i class="fa fa-search-plus overlay-icon"></i>
+          </div>
+        </div>
+        
+        <!-- Dish 9 (food12.jpg) -->
+        <div class="gallery-item mains" onclick="openLightbox('food12.jpg', 'Shrimp Scampi Pasta', 'Succulent garlic shrimp sautéed in white wine and butter, tossed with linguine.')">
+          <img src="food12.jpg" alt="Shrimp Scampi Pasta" loading="lazy">
+          <div class="gallery-overlay">
+            <h5 class="gallery-dish-name">Shrimp Scampi Pasta</h5>
+            <span class="gallery-dish-cat">Mains</span>
+            <i class="fa fa-search-plus overlay-icon"></i>
+          </div>
+        </div>
+        
+        <!-- Dish 10 (food16.jpg) -->
+        <div class="gallery-item desserts" onclick="openLightbox('food16.jpg', 'Classic Tiramisu', 'Layered Italian dessert with ladyfingers dipped in espresso, mascarpone cheese, and cocoa.')">
+          <img src="food16.jpg" alt="Classic Tiramisu" loading="lazy">
+          <div class="gallery-overlay">
+            <h5 class="gallery-dish-name">Classic Tiramisu</h5>
+            <span class="gallery-dish-cat">Desserts</span>
+            <i class="fa fa-search-plus overlay-icon"></i>
+          </div>
+        </div>
+        
+        <!-- Dish 11 (food17.jpg) -->
+        <div class="gallery-item mains" onclick="openLightbox('food17.jpg', 'Fettuccine Alfredo', 'Rich and creamy Parmesan garlic sauce tossed with fettuccine and sliced grilled chicken.')">
+          <img src="food17.jpg" alt="Fettuccine Alfredo" loading="lazy">
+          <div class="gallery-overlay">
+            <h5 class="gallery-dish-name">Fettuccine Alfredo</h5>
+            <span class="gallery-dish-cat">Mains</span>
+            <i class="fa fa-search-plus overlay-icon"></i>
+          </div>
+        </div>
+        
+        <!-- Dish 12 (food18.jpg) -->
+        <div class="gallery-item mains" onclick="openLightbox('food18.jpg', 'Slow Cooked Lamb Shank', 'Fall-off-the-bone tender lamb shank braised with red wine, herbs, and root vegetables.')">
+          <img src="food18.jpg" alt="Slow Cooked Lamb Shank" loading="lazy">
+          <div class="gallery-overlay">
+            <h5 class="gallery-dish-name">Slow Cooked Lamb Shank</h5>
+            <span class="gallery-dish-cat">Mains</span>
+            <i class="fa fa-search-plus overlay-icon"></i>
+          </div>
+        </div>
+        
+        <!-- Dish 13 (food19.jpg) -->
+        <div class="gallery-item starters" onclick="openLightbox('food19.jpg', 'Stuffed Mushrooms', 'Button mushrooms filled with herb garlic cream cheese and baked golden brown.')">
+          <img src="food19.jpg" alt="Stuffed Mushrooms" loading="lazy">
+          <div class="gallery-overlay">
+            <h5 class="gallery-dish-name">Stuffed Mushrooms</h5>
+            <span class="gallery-dish-cat">Starters</span>
+            <i class="fa fa-search-plus overlay-icon"></i>
+          </div>
+        </div>
+        
+        <!-- Dish 14 (food21.jpg) -->
+        <div class="gallery-item desserts" onclick="openLightbox('food21.jpg', 'Assorted Macarons', 'Assorted delicate French almond meringue cookies with a sweet cream filling.')">
+          <img src="food21.jpg" alt="Assorted Macarons" loading="lazy">
+          <div class="gallery-overlay">
+            <h5 class="gallery-dish-name">Assorted Macarons</h5>
+            <span class="gallery-dish-cat">Desserts</span>
+            <i class="fa fa-search-plus overlay-icon"></i>
+          </div>
+        </div>
+        
+        <!-- Dish 15 (food20.jpg) -->
+        <div class="gallery-item desserts" onclick="openLightbox('food20.jpg', 'Sorbet Parfait', 'Light raspberry sorbet layered with fresh summer berries and vanilla cream.')">
+          <img src="food20.jpg" alt="Sorbet Parfait" loading="lazy">
+          <div class="gallery-overlay">
+            <h5 class="gallery-dish-name">Sorbet Parfait</h5>
+            <span class="gallery-dish-cat">Desserts</span>
+            <i class="fa fa-search-plus overlay-icon"></i>
+          </div>
+        </div>
+        
+        <!-- Dish 16 (food13.jpg) -->
+        <div class="gallery-item mains" onclick="openLightbox('food13.jpg', 'Truffle Mushroom Burger', 'Gourmet beef patty topped with sautéed wild mushrooms and truffle cheese sauce.')">
+          <img src="food13.jpg" alt="Truffle Mushroom Burger" loading="lazy">
+          <div class="gallery-overlay">
+            <h5 class="gallery-dish-name">Truffle Mushroom Burger</h5>
+            <span class="gallery-dish-cat">Mains</span>
+            <i class="fa fa-search-plus overlay-icon"></i>
+          </div>
+        </div>
+        
+        <!-- Dish 17 (food14.jpg) -->
+        <div class="gallery-item starters" onclick="openLightbox('food14.jpg', 'Charcuterie Platter', 'A fine selection of cured meats, artisanal cheeses, grapes, olives, and toasted crackers.')">
+          <img src="food14.jpg" alt="Charcuterie Platter" loading="lazy">
+          <div class="gallery-overlay">
+            <h5 class="gallery-dish-name">Charcuterie Platter</h5>
+            <span class="gallery-dish-cat">Starters</span>
+            <i class="fa fa-search-plus overlay-icon"></i>
+          </div>
+        </div>
+        
+        <!-- Dish 18 (food5.jpg) -->
+        <div class="gallery-item starters" onclick="openLightbox('food5.jpg', 'Zesty Calamari', 'Lightly breaded crispy calamari rings served with lemon garlic aioli.')">
+          <img src="food5.jpg" alt="Zesty Calamari" loading="lazy">
+          <div class="gallery-overlay">
+            <h5 class="gallery-dish-name">Zesty Calamari</h5>
+            <span class="gallery-dish-cat">Starters</span>
+            <i class="fa fa-search-plus overlay-icon"></i>
+          </div>
+        </div>
+        
+        <!-- Dish 19 (food22.jpg) -->
+        <div class="gallery-item desserts" onclick="openLightbox('food22.jpg', 'Strawberry Cream Tart', 'Butter pastry crust shell filled with pastry cream and fresh organic strawberries.')">
+          <img src="food22.jpg" alt="Strawberry Cream Tart" loading="lazy">
+          <div class="gallery-overlay">
+            <h5 class="gallery-dish-name">Strawberry Cream Tart</h5>
+            <span class="gallery-dish-cat">Desserts</span>
+            <i class="fa fa-search-plus overlay-icon"></i>
+          </div>
+        </div>
+        
+        <!-- Dish 20 (food15.jpg) -->
+        <div class="gallery-item mains" onclick="openLightbox('food15.jpg', 'Lobster Thermidor', 'Rich and decadent lobster tail meat baked in a creamy brandy cheese sauce.')">
+          <img src="food15.jpg" alt="Lobster Thermidor" loading="lazy">
+          <div class="gallery-overlay">
+            <h5 class="gallery-dish-name">Lobster Thermidor</h5>
+            <span class="gallery-dish-cat">Mains</span>
+            <i class="fa fa-search-plus overlay-icon"></i>
+          </div>
+        </div>
+        
+        <!-- Dish 21 (food23.jpg) -->
+        <div class="gallery-item desserts" onclick="openLightbox('food23.jpg', 'Classic Cheesecake', 'Rich creamy cheesecake slice topped with a sweet strawberry compote.')">
+          <img src="food23.jpg" alt="Classic Cheesecake" loading="lazy">
+          <div class="gallery-overlay">
+            <h5 class="gallery-dish-name">Classic Cheesecake</h5>
+            <span class="gallery-dish-cat">Desserts</span>
+            <i class="fa fa-search-plus overlay-icon"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Custom Lightbox Modal -->
+    <div id="customLightbox" class="lightbox-modal" onclick="closeLightbox()">
+      <span class="lightbox-close">&times;</span>
+      <div class="lightbox-content" onclick="event.stopPropagation()">
+        <div class="row no-gutters">
+          <div class="col-md-7">
+            <img id="lightboxImg" src="" alt="Dish Image" class="img-fluid">
+          </div>
+          <div class="col-md-5">
+            <div class="lightbox-details p-4 d-flex flex-column justify-content-center h-100">
+              <h3 id="lightboxTitle" class="mb-3"></h3>
+              <p id="lightboxDesc" class="lead"></p>
+              <button class="btn btn-brand mt-4" onclick="closeLightbox()">Back to Gallery</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+<!-------------------------------footer-------------------------------->
+    <footer id="footerstyle" class="container-fluid py-5">
+      <div class="container">
+        <div class="row">
+          <!-- Column 1: About -->
+          <div class="col-md-3 mb-4" id="footer1">
+            <h4 class="footer-heading mb-4">About Us</h4>
+            <p class="footer-text">Welcome to our restaurant, where we serve delicious and authentic cuisine. Our mission is to provide an unforgettable dining experience with exceptional service and a warm atmosphere.</p>
+          </div>
+          
+          <!-- Column 2: Quick Links -->
+          <div class="col-md-2 mb-4" id="footer2">
+            <h4 class="footer-heading mb-4">Quick Links</h4>
+            <ul class="footer-links">
+                <li class="mb-2"><a href="#">Home</a></li>
+                <li class="mb-2"><a href="#abu">About</a></li>
+                <li class="mb-2"><a href="#menuu">Menu</a></li>
+                <li class="mb-2"><a href="#registration-form">Contact</a></li>
+            </ul>
+          </div>
+    
+          <!-- Column 3: Contact Info -->
+          <div class="col-md-2 mb-4" id="footer4">
+            <h4 class="footer-heading mb-4">Contact Us</h4>
+            <p class="footer-text mb-2"><i class="fa fa-map-marker mr-2"></i>1234 Culina St, Food City, FC 789</p>
+            <p class="footer-text mb-2"><i class="fa fa-phone mr-2"></i>(123) 456-7890</p>
+            <p class="footer-text mb-2"><i class="fa fa-envelope mr-2"></i>diveanddevine@restaurant.com</p>
+          </div>
+          
+          <!-- Column 4: Suggestions & Feedback Form -->
+          <div class="col-md-5 mb-4" id="footer5">
+            <h4 class="footer-heading mb-4">Questions & Suggestions</h4>
+            <p class="footer-text mb-3">Have feedback or questions? Drop us a note below and our team will get right back to you.</p>
+            <form class="footer-form" onsubmit="handleFooterSubmit(event)">
+              <div class="form-group mb-2">
+                <input type="email" class="form-control footer-input" placeholder="Your Email Address" required>
+              </div>
+              <div class="form-group mb-3">
+                <textarea class="form-control footer-input" rows="2" placeholder="Your Message, Suggestions or Questions..." required></textarea>
+              </div>
+              <button type="submit" class="btn btn-brand btn-block py-2">Submit Feedback</button>
+            </form>
+          </div>
+        </div>
+        
+        <hr class="footer-divider my-4">
+        
+        <div class="row align-items-center">
+          <div class="col-md-6 text-center text-md-left mb-3 mb-md-0">
+            <p class="footer-copy mb-0">&copy; 2026 Monica's YUMMY. All rights reserved.</p>
+          </div>
+          <div class="col-md-6 text-center text-md-right">
+            <div class="footer-social">
+              <a href="https://facebook.com/" class="social-icon mr-3"><i class="fa fa-facebook"></i></a>
+              <a href="https://twitter.com/" class="social-icon mr-3"><i class="fa fa-twitter"></i></a>
+              <a href="https://instagram.com/" class="social-icon mr-3"><i class="fa fa-instagram"></i></a>
+              <a href="https://yelp.com/" class="social-icon"><i class="fa fa-yelp"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Script dependencies -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Custom UI/UX Script -->
+    <script>
+        // ----------------------------------------------------
+        // Events Slideshow Controller
+        // ----------------------------------------------------
+        let slideIndex = 1;
+        showSlides(slideIndex);
+        
+        // Auto slide change every 5 seconds
+        let slideTimer = setInterval(function() { plusSlides(1); }, 5000);
+        
+        function plusSlides(n) {
+          clearInterval(slideTimer);
+          showSlides(slideIndex += n);
+          slideTimer = setInterval(function() { plusSlides(1); }, 5000);
+        }
+        
+        function currentSlide(n) {
+          clearInterval(slideTimer);
+          showSlides(slideIndex = n);
+          slideTimer = setInterval(function() { plusSlides(1); }, 5000);
+        }
+        
+        function showSlides(n) {
+          let i;
+          let slides = document.getElementsByClassName("mySlides");
+          let dots = document.getElementsByClassName("dot");
+          if (n > slides.length) {slideIndex = 1}    
+          if (n < 1) {slideIndex = slides.length}
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";  
+          }
+          for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+          }
+          if(slides[slideIndex-1]) {
+            slides[slideIndex-1].style.display = "block";  
+          }
+          if(dots[slideIndex-1]) {
+            dots[slideIndex-1].className += " active";
+          }
+        }
+
+        // ----------------------------------------------------
+        // Gallery Filtering
+        // ----------------------------------------------------
+        function filterGallery(category) {
+          // Update active filter button
+          const buttons = document.querySelectorAll('.gallery-filter-group .btn-filter');
+          buttons.forEach(btn => btn.classList.remove('active'));
+          
+          // Add active class to clicked button
+          event.currentTarget.classList.add('active');
+          
+          // Show/hide gallery items
+          const items = document.querySelectorAll('.gallery-grid .gallery-item');
+          items.forEach(item => {
+            if (category === 'all' || item.classList.contains(category)) {
+              item.style.display = 'block';
+            } else {
+              item.style.display = 'none';
+            }
+          });
+        }
+
+        // ----------------------------------------------------
+        // Lightbox Modal Functions
+        // ----------------------------------------------------
+        function openLightbox(imgSrc, title, desc) {
+          const modal = document.getElementById("customLightbox");
+          const img = document.getElementById("lightboxImg");
+          const titleElem = document.getElementById("lightboxTitle");
+          const descElem = document.getElementById("lightboxDesc");
+          
+          img.src = imgSrc;
+          titleElem.textContent = title;
+          descElem.textContent = desc;
+          
+          modal.style.display = "flex";
+          // Add class to body to prevent background scrolling
+          document.body.style.overflow = "hidden";
+        }
+        
+        function closeLightbox() {
+          const modal = document.getElementById("customLightbox");
+          modal.style.display = "none";
+          // Restore scrolling
+          document.body.style.overflow = "auto";
+        }
+
+        // Close lightbox on pressing 'Escape' key
+        document.addEventListener('keydown', function(event) {
+          if (event.key === 'Escape') {
+            closeLightbox();
+          }
+        });
+
+        // ----------------------------------------------------
+        // Footer Suggestions Form Handler
+        // ----------------------------------------------------
+        function handleFooterSubmit(event) {
+          event.preventDefault();
+          const email = event.target.querySelector('input[type="email"]').value;
+          const message = event.target.querySelector('textarea').value;
+          const subject = encodeURIComponent("Monica's YUMMY - Suggestion/Question");
+          const body = encodeURIComponent(`From: ${email}\n\nMessage:\n${message}`);
+          window.location.href = `mailto:rayapallymounika@gmail.com?subject=${subject}&body=${body}`;
+          alert('Opening your email client to send the suggestion...');
+          event.target.reset();
+        }
+
+        // ----------------------------------------------------
+        // Interactive Table Booking Handler
+        // ----------------------------------------------------
+        let tempSelectedTable = '';
+
+        function selectModalTable(element, tableName) {
+          const nodes = document.querySelectorAll('.table-node');
+          nodes.forEach(node => node.classList.remove('selected'));
+          
+          element.classList.add('selected');
+          tempSelectedTable = tableName;
+          
+          document.getElementById('confirmTableSelectionBtn').removeAttribute('disabled');
+        }
+
+        function confirmModalTable() {
+          if (tempSelectedTable) {
+            document.getElementById('ftable').value = tempSelectedTable;
+            $('#tableModal').modal('hide');
+          }
+        }
+
+        $(document).ready(function() {
+          $('#ground-floor-tab').on('click', function() {
+            $(this).css('background', '');
+            $('#first-floor-tab').css('background', '#666');
+          });
+          $('#first-floor-tab').on('click', function() {
+            $(this).css('background', 'linear-gradient(135deg, var(--primary-color), var(--primary-dark))');
+            $('#ground-floor-tab').css('background', '#666');
+          });
+        });
+
+        function handleBookingSubmit(event) {
+          event.preventDefault();
+          
+          const name = document.getElementById('fname').value;
+          const phone = document.getElementById('fphone').value;
+          const email = document.getElementById('femail').value;
+          const guests = document.getElementById('fguests').value;
+          const datetime = document.getElementById('fdatetime').value;
+          const table = document.getElementById('ftable').value;
+          
+          const randomNum = Math.floor(1000 + Math.random() * 9000);
+          const token = 'YM-' + randomNum;
+          
+          const subject = encodeURIComponent("Monica's YUMMY Dine Divine - Booking Confirmation");
+          const body = encodeURIComponent(
+            `Dear ${name},\n\n` +
+            `Thank you for booking a table with us at Monica's YUMMY Dine Divine!\n\n` +
+            `Here are your booking details:\n` +
+            `---------------------------------------\n` +
+            `Token Code: ${token}\n` +
+            `Table Plan: ${table}\n` +
+            `Guests: ${guests} Person(s)\n` +
+            `Date & Time: ${datetime}\n` +
+            `Contact Number: ${phone}\n` +
+            `---------------------------------------\n\n` +
+            `Please keep this token for offline recognition when you arrive.\n\n` +
+            `Warm regards,\n` +
+            `Monica's YUMMY Restaurant Team`
+          );
+          
+          const mailtoUrl = `mailto:${email}?subject=${subject}&body=${body}`;
+          
+          const queryParams = `?name=${encodeURIComponent(name)}&phone=${encodeURIComponent(phone)}&email=${encodeURIComponent(email)}&guests=${encodeURIComponent(guests)}&datetime=${encodeURIComponent(datetime)}&table=${encodeURIComponent(table)}&token=${encodeURIComponent(token)}`;
+          
+          window.location.href = mailtoUrl;
+          
+          alert(`Generating your Booking Token: ${token}.\n\nAn email draft confirmation will open in your email client. Click OK to view your booking receipt.`);
+          
+          setTimeout(function() {
+            window.location.href = 'registration_successful.html' + queryParams;
+          }, 1000);
+        }
+    </script>
+</body>
+</html>
